@@ -4,12 +4,13 @@ double resultado = 0;
 string operacao;
 string sair;
 
-ExibeMenu();
 
-ExibeOpcoes();
 
 do
 {
+ExibeMenu();
+ExibeOpcoes();
+
   switch (operacao)
     {
         case "+":
