@@ -97,14 +97,14 @@ void ExibeMenu()
     Console.WriteLine("|      Multiplicação (*)    |");
     Console.WriteLine("|         Divisão (/)       |");
     Console.WriteLine("|      Exponeciação (^)     |");
-    Console.WriteLine("|      Radiciação (R ou r)    |");
+    Console.WriteLine("|      Radiciação (R ou r)  |");
     Console.WriteLine("+---------------------------+");
 
     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("+--------------------------------------------------------------------------------+");
-    Console.WriteLine("|   Observação: a cada etapa, leia as orientações e tecle ENTER para continuar.  |");
-    Console.WriteLine("|na radiação (raiz quadrada), o número que irá contar é o primeiro valor digitado|");
-    Console.WriteLine("+--------------------------------------------------------------------------------+");
+    Console.WriteLine("+----------------------------------------------------------------------------------+");
+    Console.WriteLine("|    Observação: a cada etapa, leia as orientações e tecle ENTER para continuar.   |");
+    Console.WriteLine("|na radiciação (raiz quadrada), o número que irá contar é o primeiro valor digitado|");
+    Console.WriteLine("+----------------------------------------------------------------------------------+");
     Console.ResetColor();
 }
 
